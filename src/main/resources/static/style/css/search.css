@@ -1,0 +1,28 @@
+.center{
+	left: 50%;
+	transform: translateX(-50%);
+}
+.loginForm{
+
+	left: 50%;
+	max-width: 500px;
+
+	transform: translateX(-50%);
+}
+.glyphicon{
+	top:0px;
+}
+/*图标位置*/
+.input-group-addon{
+	left: 16.5px;
+	padding-right: 23px;
+	padding-left: 10px;
+}
+
+.loginForm .has-feedback .form-control-feedback{
+	left: 15px;
+}
+/*输入框位置*/
+.loginForm .form-control{
+	padding-left: 31px;
+}

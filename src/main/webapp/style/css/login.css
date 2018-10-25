@@ -1,0 +1,35 @@
+
+.loginForm{
+	border: 0px solid;
+	border-radius: 20px;
+	box-shadow: 0px 0px 10px 10px #4242ee;
+	background-color: #4242ee;
+	position: absolute;
+	left: 50%;
+	max-width: 500px;
+	bottom: 50%;
+	transform: translateX(-50%)translateY(50%);
+}
+.glyphicon{
+	top:0px;
+}
+/*图标位置*/
+.input-group-addon{
+	left: 16.5px;
+	padding-right: 23px;
+	padding-left: 10px;
+}
+/*验证码大小*/
+.img-thumbnail{
+	height: 34px;
+	padding: 1px;
+	/*width: 100;*/
+	/*margin-left: -18px;*/
+}
+.loginForm .has-feedback .form-control-feedback{
+	left: 15px;
+}
+/*输入框位置*/
+.loginForm .form-control{
+	padding-left: 31px;
+}

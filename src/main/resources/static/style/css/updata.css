@@ -1,0 +1,8 @@
+/*菜单背景色*/
+.container-fluid>div>ul>li:nth-child(2){
+	background-color: #ddd;
+}
+/*表格上下居中*/
+.table>tbody>tr>th{
+            vertical-align: middle;
+}

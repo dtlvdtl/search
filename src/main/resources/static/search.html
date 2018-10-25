@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no"/> 
+	<title>查询界面</title>
+	<link rel="stylesheet" type="text/css" href="style/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style/css/bootstrap-theme.css">
+	<link rel="stylesheet" type="text/css" href="style/css/search.css">
+	<script src="style/js/jquery-3.1.1.js"></script>
+	<script src="style/js/bootstrap.js"></script>
+	<script src="style/js/jquery.1.17.0-validate.js"></script>
+	<script src="style/js/search.js"></script>
+
+	<script type="text/javascript">
+	
+		
+		
+	</script>
+	<style type="text/css">
+
+	</style>
+</head>
+<body>
+	<!-- css 横排 -->
+	<div  class="col-xs-12 col-sm-8 col-md-8 col-lg-8 center">
+		<form action="" method="get" class="loginForm form-horizontal col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="form-group">
+				<table class="table table-striped">
+					<thead>
+					<tr>
+						<th>公告栏</th>
+					</tr>
+					</thead>
+					<tbody>
+					<tr>
+						<td id="board"></td>
+					</tr>
+					</tbody>
+				</table>
+				<a href="http://cn.mikecrm.com/mfvbvYa"><h4 style="color: red">问题反馈</h4></a>
+				<h2  class="text-center">义工时查询</h2>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-3 ">姓名：</label>
+				<div class="col-sm-8 has-feedback">
+					<span class="glyphicon glyphicon-user form-control-feedback "></span>
+					<input type="text" name="username" id="name" class="form-control ">
+				</div>
+			</div>
+
+			<div class="form-group">
+				<label class="control-label col-sm-3 ">学号：</label>
+				<div class="col-sm-8 has-feedback ">
+					<span class="glyphicon glyphicon-lock form-control-feedback "></span>
+					<input type="text" name="id" id="id" class="form-control ">
+				</div>
+			</div>
+
+
+
+			<div class="form-group">
+				<div class="col-sm-4 col-xs-5 col-sm-offset-3 col-xs-offset-2">
+					<button type="button" id="search" class="btn btn-primary col-sm-10 col-xs-8">查询</button>
+				</div>
+				<div class="col-sm-4 col-xs-5">
+					<button type="reset" class="btn btn-warning col-sm-10 col-xs-8">清空</button>
+				</div>
+			</div>
+
+		</form>
+		<div class="result">
+
+		</div>
+	</div>
+
+
+</body>
+</html>

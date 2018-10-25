@@ -1,0 +1,36 @@
+﻿
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>义工表上传</title>
+<script language="JavaScript">
+
+
+
+
+</script>
+</head>
+<style type="text/css">
+	form{
+		width: 80px;
+	
+		margin:100px auto auto auto;
+	}
+
+</style>
+<body>
+	<form action="/upload" method="post" enctype="multipart/form-data">
+		
+  		<input type="file" name="file"><br>
+		<input type=submit value="提交">
+	</form>
+	<form action="/login" method="post" enctype="multipart/form-data">
+		学号：
+  		<input type="text" name="username"  ><br>
+		密码：
+  		<input type="text" name="password"  ><br><br>
+		<input type=submit value="提交">
+	</form>
+  
+</body>
+</html>
